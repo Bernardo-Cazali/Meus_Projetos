@@ -1,0 +1,184 @@
+.container{
+    width:90%;
+    margin:auto;
+}
+
+#cabecalho{
+    background:#000;
+    width:100%;
+    border-radius:10px;
+    padding:20px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+	 
+#elemax{float:left;
+	      padding-top:40px;
+	      color:#00a8ff;
+       }	 	 
+	 
+#info{float:left;
+      margin-left:560px;
+		  margin-top:10px;
+      color:#ffffff;
+		  clear:both;
+	   }	 
+	 
+#logo{float:left;
+      margin-left:580px;
+	    clear:both;
+	   }	 
+
+#sobre{float:left;
+       margin-left:630px; 
+       clear:both;       
+      }   
+	 
+#rodape{background:#000000;
+	      height:30%;
+	      width:100%;
+        border-radius: 10px;
+	     }		 
+	
+#barra{
+    margin-top:20px;
+}
+
+#volta{border-radius:10px;
+      }
+
+#raio{float:left;
+	   padding-top:35px;
+	   padding-left:60px;
+     }	 	 
+	 
+#carrinho{
+    margin-top:20px;
+}
+	
+#slide{max-width:1080px;
+	     margin:0px auto;
+	     padding-top:20px;
+	    }
+
+td{background-color: hwb(240 83% 15%);
+   margin: auto;
+   border-radius: 10px;
+  }
+
+ul{
+   list-style:none;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:center;
+   gap:20px;
+   padding:0;
+   margin:20px 0;
+}
+
+li{
+   position:relative;
+} 
+ 
+li ul{position:absolute;
+	    padding-top:40px;
+	    right: 140px;
+	    display:none;
+      }  	 
+	 
+li ul li{display:block;
+         width:167;
+		     bottom:45px;
+         left:175px;
+	    }	 
+  
+li a{display:block;
+	   text-decoration:none;
+     display:block;	
+	}  
+  
+ul li a{display:block;
+	      text-decoration:none;
+        display:block;
+		    padding:10px;
+	     }
+	    
+	
+li{position:relative;
+   float:left; 
+  }	
+	
+a{color:white;
+  text-decoration:none;
+  font-size: 30px;  
+ }
+
+ p{text-align:justify;
+   text-indent:30px;
+   line-height:33px;
+   letter-spacing:1px;
+  } 
+		
+a:hover{color:RED;
+       }   
+		
+li:hover ul {display:block;
+            }		 
+				
+			
+h1{text-align:center;
+  }	  
+	   
+h3{color:black;
+   padding-left:10px;
+  }
+
+.produtos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+td{
+    width:250px;
+    background:white;
+    border-radius:10px;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+    #elemax{
+        float:none;
+        text-align:center;
+        padding-top:10px;
+    }
+
+    #raio,
+    #carrinho,
+    #barra{
+        float:none;
+        text-align:center;
+        padding:0;
+        margin:auto;
+    }
+
+    ul{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    a{
+        font-size:22px;
+    }
+
+    #slide img{
+        width:100%;
+        height:auto;
+    }
+
+}
